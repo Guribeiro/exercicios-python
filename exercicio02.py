@@ -1,26 +1,15 @@
 import string
 import math
-cores = {
-    'limpa': '\033[m',
-    'boldblue': '\033[1;30m',
-    'boldred': '\033[1;31m',
-    'boldgreen': '\033[1;32m',
-    'boldyellow': '\033[1;33m',
-    'boldpink': '\033[1;34m',
-    'boldpurple': '\033[1;35m',
-    'boldoceanblue': '\033[1;36m',
-    'boldwhite': '\033[1;37m',
-}
 
-print(f"{cores['boldblue']}Cálculo - 2 raízes de uma equação de segundo grau{cores['limpa']}")
+
+print(f"Cálculo - 2 raízes de uma equação de segundo grau")
 
 valores = []
 
-a = list(string.ascii_uppercase)
+lista = list(string.ascii_uppercase)
 
 for i in range(0, 3):
-
-    num = int(input(f'{cores["boldwhite"]}Informe o valor de {a[i]}: '))
+    num = int(input(f'Informe o valor de {lista[i]}: '))
     valores.append(num)
 
 delta = pow((valores[1] * -1), 2) - 4 * valores[0] * valores[2]
@@ -38,4 +27,4 @@ elif delta > 0:
     raiz1 = ((valores[1] * -1) + math.sqrt(delta)) / (2 * valores[0])
     raiz2 = ((valores[1] * -1) - math.sqrt(delta)) / (2 * valores[0])
     
-    print(f'A equeção tem 2 raízes\nRaiz 1: {raiz1:.1f}\nRaiz 2: {raiz2:.1f}')
+    print(f'A equação tem 2 raízes\nRaiz 1: {raiz1:.1f}\nRaiz 2: {raiz2:.1f}')
