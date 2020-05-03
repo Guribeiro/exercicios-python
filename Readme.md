@@ -67,3 +67,51 @@ informe:<br>
 • "Exame" para 3<=média <6<br>
 • "Reprovado" para média < 3 
 </p>
+
+<hr>
+
+## Exercício 06
+<p>
+Elabore um programa que leia a quilometragem inicial, a quilometragem final e o tempo gasto (em hrs) para percorrer esse trajeto.<br>
+Calcule e exiba: a distância percorrida e a velocidade do veículo, supondo movimento retilíneo uniforme.<br>
+O programa deverá verificar que a km final, seja maior que a km inicial, e a hora tem que ter um valor positivo e, caso contrário, informar<br> que não pode ser calculado e não calcular a velocidade
+</p>
+
+<hr>
+
+## Exercício 07
+<p>
+Escreva um programa que leia 3 números inteiros (x, y, z).<br>
+Informe qual deles é o maior, ou se são 2 são iguais, ou ainda se os 3 são iguais.<br>
+Obs.: resolva necessariamente usando os conectores and e/ou or.<br>
+</p>
+
+<hr>
+
+## Exercício 08
+<p>
+Escreva um programa que leia um ano (um número inteiro) e calcula se o ano é bissexto.<br>
+Um ano é bissexto se for múltiplo de 4 mas não pode ser múltiplo de 100, a menos que seja também múltiplo de 400.<br>
+Obs.: resolva necessariamente usando os conectores and e/ou or.<br>
+</p>
+
+<hr>
+
+## Exercício 09
+<p>
+Faça um algoritmo que calcule e exiba a tabuada (0 ao 10) para os números de 0 a 10<br>
+Exibir no formato “ N vezes X igual a Y”<br>
+</p>
+
+<hr>
+
+## Exercício 10
+<p>
+Faça um algoritmo que solicite um valor em Celsius (inteiro) e calcule o valor em Fahrenheit, correspondente a Celsius de 0 ao valor <br>recebido. Não aceitar Celsius menor ou igual a zero.
+Variar de 1 em 1 grau;<br>
+Exibir no formato “ X Celsius, igual a Y Fahrenheit”<br>
+Obs.: Fórmula: F = (C x 1,8) + 32<br>
+Permita que o usuário repita estes procedimentos enquanto desejar; no entanto esta opção deve ser “S” ou “s” caso queira repetir e somente <br>“N” ou “n”, caso não queira.
+</p>
+
+<hr>
