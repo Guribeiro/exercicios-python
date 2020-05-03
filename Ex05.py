@@ -1,6 +1,5 @@
 import time
 
-
 notas = []
 competencias = ['Regimental', 'Parcial', 'Trabalho']
 title = 'Insira a nota de acordo com a competência'.upper()
